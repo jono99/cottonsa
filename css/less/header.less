@@ -1,0 +1,90 @@
+
+/* Header
+  --------------------------------------------- */
+
+#header {
+	.header {
+		background: #1a1a1a;
+		margin-bottom: 30px;
+		padding: 20px 35px;
+	}
+
+	.left-nav {
+		border-right: 1px solid #fff;
+	}
+
+	.right-nav {
+		padding-top: 5px;
+	}
+
+	.menu {
+		display: inline-block;
+
+		li {
+			float: left;
+			/*margin: 0 15px;*/
+
+			&.current-menu-item a, &:hover a {
+				border-bottom: 3px solid #7a9d43;
+			}
+
+			a {
+				color: #fff;
+				display: block;
+				font-size: 12px;
+				margin: 0 10px;
+				padding: 7px 15px;
+			}
+		}
+	}
+
+	.search {
+		.fa-search {
+			background: transparent;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			position: relative;
+
+			.square(32px);
+		}
+
+		input[type="text"] {
+			background: transparent;
+			border: 0;
+			color: #fff;
+			margin-left: 15px;
+			width: 65%;
+
+
+		}
+	}
+
+	.social {
+		li {
+			float: left;
+			margin: 0 5px;
+		}
+
+		.fa-facebook-official {
+			color: #3b5998;
+
+			&:hover {
+				color: darken(#3b5998, 10%);
+			}
+		}
+
+		.fa-youtube-square {
+			color: #bb0000;
+
+			&:hover {
+				color: darken(#bb0000, 10%);
+			}
+		}
+	}
+}
+
+#logo {
+	display: inline-block;
+	margin-right: 35px;
+}
